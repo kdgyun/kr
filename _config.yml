@@ -37,9 +37,9 @@ googlescholar_username: lGxinf0AAAAJ
 
 # Additional icon links
 additional_links:
-- title: Language
+- title: Language(eng)
   icon: fas fa-globe
-  url: sproogen.github.io/modern-resume-theme
+  url: https://kdgyun.github.io/
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -51,7 +51,7 @@ about_profile_image: /images/profile.png
 about_content: > # this means to ignore newlines until the next config item.
   분산 컴퓨팅 및 클라우드 컴퓨팅 기반의 컨테이너 오케스트레이션을 연구합니다. 구체적으로, 자원 비용을 최소화하고 쾌적한 사용자 경험을 충족시키는 자원 할당 최적화를 주제로 연구하고 있습니다. <br><br>
   연구자로서 <mark>관심사에 대한 깊이있는 지식</mark>을 추구합니다. 시계열 분석 및 통계 분석을 통한 쿠버네티스 자원 및 스케줄링 연구를 통해 국제우수학술대회에 두 건의 논문이 개재되었고, AWS, GCP와 같은 클라우드 서비스부터 온프레미스 클러스터 운용 등에 능숙합니다.
-  최근에는, 이기종 환경에서의 오토스케일링 및 트래픽 스케줄링 분야로 연구를 확장하여 새로운 논문을 준비하고 있습니다.
+  최근에는, 이기종 클러스터 환경에서의 오토스케일링 및 트래픽 스케줄링 분야로 연구를 확장하여 새로운 논문을 준비하고 있습니다.
   <br><br>
   개발자로서 <mark>다양한 경험을 통한 넓은 지식</mark>과, 반복적 작업의 <mark>자동화</mark>를 통한 업무 효율화를 추구합니다.
   SW 인재 페스티벌에서 우수 작품으로 선정된 코딩 테스트 플랫폼을 고도화하여 창업을 한 경험이 있고, 고려대학교 오픈소스 관리 플랫폼 프로젝트 총괄을 하며 풀스택 개발 경험을 쌓았으며, 
@@ -66,11 +66,11 @@ content:
         link: https://github.com/kdgyun/LARE-HPA
         job_title: 쿠버네티스 오토스케일러
         description: |
-          * International Conference on Service-Oriented Computing 2024 에서 발표한 논문의 소스코드
+          * International Conference on Service-Oriented Computing 2024 에서 발표한 논문의 구현 코드
           * Kubernetes에서 워크로드에 적응하여 Threshold와 Cooldown Time을 동적으로 조정하여 스케일링 하는 오토스케일러
           * 정적 스케일러의 문제점인 over-provisioning으로 인한 비용문제 및 under-provisioning으로 인한 사용자 경험 저하 문제를 해결
-          * 한국연구재단 우수해외학술대회 인정 컨퍼런스(NRF-1) 학회에 Distinguished Paper로 선정
-          * 특허 출원(No.10-2024-0128875) 및 SW 저작권등록(C-2024-043831)
+          * SCIE급 최상위 컨퍼런스(한국연구재단 NRF-1)에 Distinguished Paper로 선정
+          * 특허 출원(No.10-2024-0128875) 및 SW 저작권(C-2024-043831) 등록
 
       - title: k8s-cluster-bootstrap
         link: https://github.com/kdgyun/k8s-cluster-bootstrap
@@ -106,13 +106,13 @@ content:
         quote: >
           Research Assistant and Project Manager
         description: |
-          * 실전적 SW 개발과 활용 역량을 갖춘 인재육성은 위한 오픈소스 SW사용 및 개발 분석을 위한 플랫폼을 개발
+          * 실전적 SW 개발과 활용 역량을 갖춘 인재육성을 위한 오픈소스 SW사용 및 개발 분석을 위한 플랫폼을 개발
           * 오픈소스 SW 커뮤니티 개발자 연계를 통한 개발 활동 분석 및 팀 프로젝트 빌딩 인프라 운영
           * 소속 학교 구성원들의 오픈소스 프로젝트 관리 체계를 하나의 서비스로 통합 및 정보 제공을 통한 단계별 교육 컨텐츠 개발 지원
           * <b>Keywords:</b> <i>Open Source, Django, Vue.js, Full-stack, Project Manager <br><br></i>
 
       - layout: top-middle
-        title: 산림 정보 융합 서비스의 실시간 처리를 지원하는 지능형 엣지 클라우드 시스템 개발
+        title: 산림 정보 융합 클라우드 시스템을 이용한 산림재해재난 방지 및 스마트 에이징 대국민 서비스 플랫폼 개발
         quote: >
           Research Assistant
         description: |
@@ -136,12 +136,12 @@ content:
     content: |
           <h4><b>International Conferences</b></h4>
           * <div style="margin-top:10px"><b><span style="text-decoration:underline">Donggyun Kim</span></b>, Hyungjun Kim, Eunyoung Lee, Heonchang Yu, “LARE-HPA: Co-optimizing Latency and Resource Efficiency for Horizontal Pod Autoscaling in Kubernetes”, 22nd International Conference on Service-Oriented Computing (ICSOC 2024). </div>
-            - <div style="margin-top:8px">한국연구재단 우수해외학술대회 인정 컨퍼런스(NRF-1)</div>
+            - <div style="margin-top:8px">SCIE-compatible Top-tier Conference (NRF-1)</div>
             - Acceptance Rate: 14.5%
-            - Distinguished Paper Award (Top 6).
+            - Distinguished Paper Award (Top 6)
 
           * <div style="margin-top:10px">Hokun Park, Hyungjun Kim, <b><span style="text-decoration:underline">Donggyun Kim</span></b>, Gyujeong Lim, Heonchang Yu, “Optimizing Traffic Allocation for Multi-Replica Microservice Deployments in Edge Cloud”, 22nd International Conference on Service-Oriented Computing (ICSOC 2024). </div>
-            - <div style="margin-top:10px">한국연구재단 우수해외학술대회 인정 컨퍼런스(NRF-1)</div>
+            - <div style="margin-top:10px">SCIE-compatible Top-tier Conference (NRF-1)</div>
             - Acceptance Rate: 14.5%
 
           * <div style="margin-top:10px"><b><span style="text-decoration:underline">Donggyun Kim</span></b>, Heonchang Yu, “Proactive Auto Scaling Based on Marginal Request Change Analysis for Reducing Tail Latency in Kubernetes Cluster”, International Conference on Innovative Computing (IC 2024).</div>
@@ -184,7 +184,7 @@ content:
         description: |
           * 4명의 학부연구생을 멘토링
           * 컨테이너 기반 자원 관리 및 성능 최적화에 대한 연구 지도
-          * 컨테이너 간 자원 경쟁, 자원 세분성, 스케일링 지연에 따른 서비스 지연과 그에 따른 사용자 경험 분석에 대한 3개의 연구 논문 출판 및 은상 수상
+          * 컨테이너 간 자원 경쟁, 자원 세분성, 스케일링 지연에 따른 서비스 지연과 그에 따른 사용자 경험 분석에 대한 3개의 연구 논문 출판 및 1건의 은상 수상
           * AWS에서 호스팅된 마이크로서비스를 온프래미스 쿠버네티스 클러스터로 이전 및 제설계
 
       - layout: left
@@ -221,7 +221,7 @@ content:
       <span style="float: left; width:250px;">2022.12</span><span><b>SW추천장학금(공모전 및 경진대회)</b> / SW인재페스티벌 및 협력워크샵 등 참여</span><span style="float:right">한림대학교</span> <br>
       <span style="float: left; width:250px;">2022.12</span><span><b>SW추천장학금(교내)</b> / 교내 SW중심대학 프로그램 참여 우수</span><span style="float:right">한림대학교</span> <br>
       <span style="float: left; width:250px;">2022.12</span><span><b>우수작품</b> / 2022 SW인재페스티벌</span><span style="float:right">SW중심대학협의회</span> <br>
-      <span style="float: left; width:250px;">2022.10</span><span><b>3등</b> / SW 오픈소스 프로그래밍 챌린지 해커톤</span><span style="float:right"></span> <br>
+      <span style="float: left; width:250px;">2022.10</span><span><b>3등</b> / SW 오픈소스 프로그래밍 챌린지 해커톤</span><span style="float:right">한림대학교</span> <br>
       <span style="float: left; width:250px;">2022.07</span><span><b>학기우등</b> / 1학기 성적 우수</span><span style="float:right">한림대학교</span> <br>
 
       <h4><b><div style="margin-top:45px;">2021</div></b></h4> <br>
