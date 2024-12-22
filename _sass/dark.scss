@@ -1,0 +1,23 @@
+.dark {
+  background-color: #222;
+  color: #e6e6e6;
+}
+
+.dark {
+  mark {
+    color: #222;
+    background-color: #e6e6e6;
+  }
+
+  a {
+    color: hsla(192, 10%, 90%, 0.87) !important;
+    -webkit-transition: color 0.3s ease-out;
+    -moz-transition: color 0.3s ease-out;
+    -o-transition: color 0.3s ease-out;
+    transition: color 0.3s ease-out;
+  }
+  a:hover {
+    text-decoration: none !important;
+    color: #7fe2f8 !important;
+  }
+}

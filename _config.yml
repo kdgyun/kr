@@ -1,0 +1,385 @@
+livereload: true
+
+# Site
+repository: kdgyun/kdgyun.github.io
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Data type version
+version: 2
+
+# Personal info
+name: 김동균
+title: 클라우드 엔지니어
+email: kdonggyun97@email.com
+email_title: Email
+# phone: +82
+# phone_title: Phone
+website: https://st-lab.tistory.com
+website_title: Blog
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: jekyllrb
+github_username:  kdgyun
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+# linkedin_username: jekyll
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+orcid_username: 0009-0007-3336-7078
+googlescholar_username: lGxinf0AAAAJ
+
+# Additional icon links
+additional_links:
+- title: Language
+  icon: fas fa-globe
+  url: sproogen.github.io/modern-resume-theme
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# About Section
+about_title: <b>About Me</b>
+# darkmode color = #ff3b7f
+about_profile_image: /images/profile.png
+about_content: > # this means to ignore newlines until the next config item.
+  분산 컴퓨팅 및 클라우드 컴퓨팅 기반의 컨테이너 오케스트레이션을 연구합니다. 구체적으로, 자원 비용을 최소화하고 쾌적한 사용자 경험을 충족시키는 자원 할당 최적화를 주제로 연구하고 있습니다. <br><br>
+  연구자로서 <mark>관심사에 대한 깊이있는 지식</mark>을 추구합니다. 시계열 분석 및 통계 분석을 통한 쿠버네티스 자원 및 스케줄링 연구를 통해 국제우수학술대회에 두 건의 논문이 개재되었고, AWS, GCP와 같은 클라우드 서비스부터 온프레미스 클러스터 운용 등에 능숙합니다.
+  최근에는, 이기종 환경에서의 오토스케일링 및 트래픽 스케줄링 분야로 연구를 확장하여 새로운 논문을 준비하고 있습니다.
+  <br><br>
+  개발자로서 <mark>다양한 경험을 통한 넓은 지식</mark>과, 반복적 작업의 <mark>자동화</mark>를 통한 업무 효율화를 추구합니다.
+  SW 인재 페스티벌에서 우수 작품으로 선정된 코딩 테스트 플랫폼을 고도화하여 창업을 한 경험이 있고, 고려대학교 오픈소스 관리 플랫폼 프로젝트 총괄을 하며 풀스택 개발 경험을 쌓았으며, 
+  비효율적 업무로 생기는 시간 낭비를 줄이기 위한 다양한 부트스트랩 및 자동화 도구를 개발해왔습니다.<br>
+
+content:
+  - title: <b>Notable Development Projects</b>
+    layout: list
+    content:
+      - layout: left
+        title: LARE-HPA
+        link: https://github.com/kdgyun/LARE-HPA
+        job_title: 쿠버네티스 오토스케일러
+        description: |
+          * International Conference on Service-Oriented Computing 2024 에서 발표한 논문의 소스코드
+          * Kubernetes에서 워크로드에 적응하여 Threshold와 Cooldown Time을 동적으로 조정하여 스케일링 하는 오토스케일러
+          * 정적 스케일러의 문제점인 over-provisioning으로 인한 비용문제 및 under-provisioning으로 인한 사용자 경험 저하 문제를 해결
+          * 한국연구재단 우수해외학술대회 인정 컨퍼런스(NRF-1) 학회에 Distinguished Paper로 선정
+          * 특허 출원(No.10-2024-0128875) 및 SW 저작권등록(C-2024-043831)
+
+      - title: k8s-cluster-bootstrap
+        link: https://github.com/kdgyun/k8s-cluster-bootstrap
+        job_title: 자동화도구
+        description: |
+          * Ubuntu환경에서 Kubernetes를 한 줄의 명령어로 쉽고 빠르게 클러스터를 구축하기 위한 개발 프로젝트
+          * Open Source로 진행되는 프로젝트로, 1.24.15부터 1.31.2버전까지 지원
+          * 쿠버네티스에서 제공하는 설치 문서는 kurnel 버전, Container Runtime, CNI 등 많은 종속성을 요구하기 떄문에, 설치 과정의 불편함을 해소하기 위해 개발 시작
+
+      - title: KUCODE
+        link: https://github.com/KU-CODE-OSS/KUCODE
+        job_title: 오픈소스 관리 통합 플랫폼
+        description: |
+          * 고려대학교 오픈소스SW 교육 지원 및 오픈소스 활동 활성화를 위한 플랫폼 구축 프로젝트
+          * 학내 전공과목과 연계하여 오픈소스 활용 활성화를 목표로 하여 SW역량 강화 및 문제해결 능력을 도모
+          * 수강생 간 코드 리뷰를 통해 도전의식 도모와, 수업 운영자는 편리하게 학생들의 오픈소스 성과 관리 및 통계분석을 할 수 있는 통합 플랫폼
+          * Django, Vue.js, PostgreSQL 기반의 웹 서비스 개발 및 프로젝트 총괄
+
+      - title: COU (COU Inc.)
+        link: https://github.com/COUniv/COUDeploy
+        job_title: 온라인 코딩 저지 플랫폼
+        description: |
+          * 누구나 쉽게 개인화 할 수 있는 오픈소스 온라인 저지 플랫폼 구축 프로젝트
+          * 다양한 알고리즘 및 코딩 문제를 풀어볼 수 있도록 설계하여 간단한 서비스 제공부터 각자의 서비스 모델에 맞게 제공할 수 있도록 제공
+          * Docker 활용을 통한 kickstart 환경 구축과 개발-빌드-배포 프로세스를 단순화
+          * 2022 SW인재페스티벌 학교 대표 우수작품으로 선정
+
+  - title: <b>Research Projects</b>
+    layout: list
+    content:
+      - layout: top-middle
+        title: SW중심대학사업 오픈소스SW 교육 지원 및 오픈소스 활동 활성화를 위한 플랫폼 구축
+        quote: >
+          Research Assistant and Project Manager
+        description: |
+          * 실전적 SW 개발과 활용 역량을 갖춘 인재육성은 위한 오픈소스 SW사용 및 개발 분석을 위한 플랫폼을 개발
+          * 오픈소스 SW 커뮤니티 개발자 연계를 통한 개발 활동 분석 및 팀 프로젝트 빌딩 인프라 운영
+          * 소속 학교 구성원들의 오픈소스 프로젝트 관리 체계를 하나의 서비스로 통합 및 정보 제공을 통한 단계별 교육 컨텐츠 개발 지원
+          * <b>Keywords:</b> <i>Open Source, Django, Vue.js, Full-stack, Project Manager <br><br></i>
+
+      - layout: top-middle
+        title: 산림 정보 융합 서비스의 실시간 처리를 지원하는 지능형 엣지 클라우드 시스템 개발
+        quote: >
+          Research Assistant
+        description: |
+          * 산림재해 및 산림치유에 최적화된 서비스를 제공하기 위한 융합 서비스 플랫폼을 개발
+          * 서비스의 QoS(Quality of Service)를 높이고, 시스템의 자원 관리를 자동화함으로써 탄력적이고 효율적인 엣지 클라우드 시스템 인프라를 운영
+          * MSA기반 산림 정보 융합 서비스의 GPU 집약적인 마이크로서비스들에 대한 공정한 GPU 점유를 보장하기 위한 AI기반 서비스 적응적 오토스케일링 기술 개발
+          * <b>Keywords:</b> <i>Edge Cloud, Resource Management, Autoscaling, Real-time Processing, High Availability <br><br></i>
+
+      - layout: top-middle
+        title: 사용자 별 오토모티브 헬스케어 서비스를 지원하는 엣지 클라우드 기반 차량 공유 플랫폼 개발
+        quote: >
+          Research Assistant
+        description: |
+          * 사용자가 차량을 변경하여 이용하는 경우에도 빠르게 사용자 특화 자동차 환경을 구축하고 사용자 전용 서비스를 제공하는 융합 서비스 플랫폼을 개발
+          * 차량을 바꿔서 이용하는 경우에도 사용자별 주행 정보(차량 속도, 주행 기록, 주행 습관, 네비게이션 이동 정보, 배터리 사용 및 관리 정보, 실시간 위치, 차량 개인설정 정보)를 통한 응급서비스를 포함하는 차량 서비스 제공
+          * 실시간성 기반 서비스 자원점유 정도에 적응적인 차량-프라이빗 클라우드 서버간의 자원 확장/축소 기술 개발
+          * <b>Keywords:</b> <i>Car Sharing Platform, Edge Cloud Computing, Automotive Healthcare, Driving Assistance Service, Convergence Service Platform <br><br></i>
+
+  - title: <b>Publications</b>
+    layout: text
+    content: |
+          <h4><b>International Conferences</b></h4>
+          * <div style="margin-top:10px"><b><span style="text-decoration:underline">Donggyun Kim</span></b>, Hyungjun Kim, Eunyoung Lee, Heonchang Yu, “LARE-HPA: Co-optimizing Latency and Resource Efficiency for Horizontal Pod Autoscaling in Kubernetes”, 22nd International Conference on Service-Oriented Computing (ICSOC 2024). </div>
+            - <div style="margin-top:8px">한국연구재단 우수해외학술대회 인정 컨퍼런스(NRF-1)</div>
+            - Acceptance Rate: 14.5%
+            - Distinguished Paper Award (Top 6).
+
+          * <div style="margin-top:10px">Hokun Park, Hyungjun Kim, <b><span style="text-decoration:underline">Donggyun Kim</span></b>, Gyujeong Lim, Heonchang Yu, “Optimizing Traffic Allocation for Multi-Replica Microservice Deployments in Edge Cloud”, 22nd International Conference on Service-Oriented Computing (ICSOC 2024). </div>
+            - <div style="margin-top:10px">한국연구재단 우수해외학술대회 인정 컨퍼런스(NRF-1)</div>
+            - Acceptance Rate: 14.5%
+
+          * <div style="margin-top:10px"><b><span style="text-decoration:underline">Donggyun Kim</span></b>, Heonchang Yu, “Proactive Auto Scaling Based on Marginal Request Change Analysis for Reducing Tail Latency in Kubernetes Cluster”, International Conference on Innovative Computing (IC 2024).</div>
+
+          <div style="margin-top:60px"><h4><b>Domestic Conferences</b></h4></div>
+          * <div style="margin-top:10px">Seoeun Kwon, <b><span style="text-decoration:underline">Donggyun Kim</span></b>, Heonchang Yu, “An Analysis of CPU Utilization and Service Latency Based on Cool Down Time Configuration in Kubernetes<sup><b>†</b></sup>”, Annual Conference of KIPS 2024 (ACK2024).</div>
+            - <div style="margin-top:8px">ACK 2024 학부생논문경진대회 은상</div>
+          
+          * <div style="margin-top:10px">Seungjoo Han, <b><span style="text-decoration:underline">Donggyun Kim</span></b>, Heonchang Yu, “An Analysis of Response Time Depending on CPU Resource Contention between Pods in Kubernetes Environment<sup><b>†</b></sup>”, Annual Conference of KIPS 2024 (ACK2024).</div>
+
+          * <div style="margin-top:10px">Geonwoo Kim, <b><span style="text-decoration:underline">Donggyun Kim</span></b>, Heonchang Yu, “An Analysis of Service Latency Based on Replica Resource Granularity in Kubernetes Environment”<sup><b>†</b></sup>, Annual Conference of KIPS 2024 (ACK2024).</div>
+
+          * <div style="margin-top:10px">Minjae Kang, <b><span style="text-decoration:underline">Donggyun Kim</span></b>, Heonchang Yu, “Cost-Efficient Resource Allocation Technique using Bayesian Optimization in Serverless Environment”, Korea Computer Congress 2024 (KCC2024).</div>
+
+          * <div style="margin-top:10px">Minwoo Kang, Heonchang Yu, <b><span style="text-decoration:underline">Donggyun Kim</span></b>, Jihun Kang, “A Performance Analysis of Pulling Rate Based on Image Layer Concurrency Level in Docker Environment for Cold Start Mitigation”, Annual Conference of KIPS 2023 (ACK2023).</div>
+
+          * <div style="margin-top:10px"><b><span style="text-decoration:underline">Donggyun Kim</span></b>, Chunggeon Song, Hyungjun Kim, Heonchang Yu, JoonMin Gil, “A Performance Analysis on Auto Scaling Using Different Image Pulling Methods in Kubernetes”, Korea Computer Congress 2023 (KCC2023).</div>
+
+          * <div style="margin-top:10px"><b><span style="text-decoration:underline">Donggyun Kim</span></b>, Jonggun Park, Jiho Kim, Doyeon Kang, Ivanova Ekaterina, Youngwoong Ko, “Design and Implementation of Coding Platform Using Open-Source Software”, Annual Conference of KIPS 2022 (ACK2022).</div>
+
+          † <i>학부 연구생 멘토로 연구 지도하여 출판된 논문임</i>
+
+  - title: <b>Experience</b>
+    layout: list
+    content:
+      - layout: left
+        title: 연구원
+        sub_title: 분산클라우드컴퓨팅 연구실
+        caption: 2023.01 - 현재
+        description: |
+          * 분산 클라우드 환경에서의 자원 할당 및 서비스 지연 공동 최적화에 관한 연구
+          * 컨테이너 가상화 환경에서 AI기반 애플리케이션 스케일링 스케줄링 연구
+          * 시계열 분석, 데이터 상관 분석을 포함한 통계기법 및 미들웨어 메트릭 최적화 솔루션
+          * 마이크로서비스, 엣지 클라우드 등 서비스 아키텍처 솔루션 및 다양한 클라우드 서비스 운용 경험
+
+      - layout: left
+        title: 학부 연구생 멘토
+        sub_title: 분산클라우드컴퓨팅 연구실
+        caption: 2024.04 - 현재
+        description: |
+          * 4명의 학부연구생을 멘토링
+          * 컨테이너 기반 자원 관리 및 성능 최적화에 대한 연구 지도
+          * 컨테이너 간 자원 경쟁, 자원 세분성, 스케일링 지연에 따른 서비스 지연과 그에 따른 사용자 경험 분석에 대한 3개의 연구 논문 출판 및 은상 수상
+          * AWS에서 호스팅된 마이크로서비스를 온프래미스 쿠버네티스 클러스터로 이전 및 제설계
+
+      - layout: left
+        title: 조교 (TA)
+        sub_title: 고려대학교
+        caption: 2024.03 - 현재
+        description: |
+          * 데이터과학과 인공지능 <span style="float: right"><i>2024 2학기</i></span>
+          * SW 프로그래밍 기초 <span style="float: right"><i>2024 1학기</i></span>
+          * 인공지능(영강) <span style="float: right"><i>2023 2학기</i></span>
+          * 컴퓨터 프로그래밍II <span style="float: right"><i>2023 2학기</i></span>
+          * 실전 SW프로젝트 <span style="float: right"><i>2023 1학기</i></span>
+
+      - layout: left
+        title: 창업자 & PM
+        sub_title: |
+          씨오유(COU) <br> 
+          <span style="font-weight: 300;">BRN: 738-40-00907</span>
+        caption: 2021.12 - 2023.01
+        description: |
+          * 맞춤형 온라인 코딩 저지 플랫폼을 위한 오픈소스 개발
+          * 프로젝트형 개발로 3명에서부터 시작하여 창업 동아리를 거쳐 10명의 인원으로 창업까지 진행
+          * 교내 학생 대상으로 알파-베타 테스트 진행 및 서비스 제공
+          * 코딩 플랫폼 설계에 대한 1편의 논문 출판 (ACK2022) 및 학교 대표 작품으로 2022년 강원권 SW중심대학 협력워크샵 발표 진행
+          * 2022 SW인재페스티벌 학교 대표 우수작품 선정에 따른 부스 운영 및 작품 발표를 진행
+
+  - title: <b>Awards amd Honors</b>
+    layout: text
+    content: |
+      <h4><b>2023</b></h4> <br>
+      <span style="float: left; width:250px;">2023.02</span><span><b>공로상</b> / 한림대학교 졸업 수상</span><span style="float:right">한림대학교</span> <br>
+
+      <h4><b><div style="margin-top:45px;">2022</div></b></h4> <br>
+      <span style="float: left; width:250px;">2022.12</span><span><b>SW추천장학금(공모전 및 경진대회)</b> / SW인재페스티벌 및 협력워크샵 등 참여</span><span style="float:right">한림대학교</span> <br>
+      <span style="float: left; width:250px;">2022.12</span><span><b>SW추천장학금(교내)</b> / 교내 SW중심대학 프로그램 참여 우수</span><span style="float:right">한림대학교</span> <br>
+      <span style="float: left; width:250px;">2022.12</span><span><b>우수작품</b> / 2022 SW인재페스티벌</span><span style="float:right">SW중심대학협의회</span> <br>
+      <span style="float: left; width:250px;">2022.10</span><span><b>3등</b> / SW 오픈소스 프로그래밍 챌린지 해커톤</span><span style="float:right"></span> <br>
+      <span style="float: left; width:250px;">2022.07</span><span><b>학기우등</b> / 1학기 성적 우수</span><span style="float:right">한림대학교</span> <br>
+
+      <h4><b><div style="margin-top:45px;">2021</div></b></h4> <br>
+      <span style="float: left; width:250px;">2021.07</span><span><b>학기우등</b> / 2학기 성적 우수</span><span style="float:right">한림대학교</span> <br>
+
+      <h4><b><div style="margin-top:45px;">2019</div></b></h4> <br>
+      <span style="float: left; width:250px;">2022.12</span><span><b>SW추천장학금(교내)</b> / 교내 SW중심대학 프로그램 참여 우수</span><span style="float:right">한림대학교</span> <br>
+      <span style="float: left; width:250px;">2019.11</span><span><b>3등</b> / SW 오픈소스 프로그래밍 챌린지 해커톤</span><span style="float:right">한림대학교</span> <br>
+      <span style="float: left; width:250px;">2021.12</span><span><b>학기우등 및 재학성적우수장학금</b> / 2학기 성적 우수</span><span style="float:right">한림대학교</span> <br>
+      <span style="float: left; width:250px;">2021.07</span><span><b>일송장학금</b> / 1학기 성적 최우수</span><span style="float:right">한림대학교</span> <br>
+      <span style="float: left; width:250px;">2021.07</span><span><b>학기우등 및 재학성적우수장학금</b> / 1학기 성적 최우수</span><span style="float:right">한림대학교</span> <br>
+
+  - title: <b>Skills and Techniques</b>
+    layout: list
+    content:
+      - layout: left
+        title: | 
+          Proficient In
+        description: |
+          * <b>Programming Languages:</b> Python, Java, Go
+          * <b>DevOps & Frameworks:</b> Kubernetes, Docker, Prometheus, Git & Github, Django, FastAPI, Vue.js, PostgreSQL
+          * <b>Others:</b> On-premises Cluster Built, VPN, Cloud(AWS, GCP, Tencent), Unix/Linux, Figma
+
+      - layout: left
+        title: | 
+          Familiar With
+        description: |
+          * <b>Programming Languages:</b> C/C++, bash, Typescript
+          * <b>DevOps & Frameworks:</b> Qt, Flask, Istio, tensorflow, Redis, MySQL
+          * <b>Others:</b> BeautifulSoup, Scrapy
+
+  - title: <b>Education</b>
+    layout: list
+    content:
+      - title: 고려대학교
+        sub_title: 2023.03 - 2025.02 (예정)
+        caption: 석사
+        # quote: >
+        #   정보대학 컴퓨터학과
+        description: |
+          정보대학 컴퓨터학과 <br>
+          학위논문: CLEAR-HPA: Co-optimizing Latency and Efficient Allocation of Resources for Horizontal Pod Autoscaling in Kubernetes Cluster <br>
+          연구실: 분산클라우드컴퓨팅(Distributed and Cloud Computing) 연구실<br>
+          지도교수: 유헌창 교수<br>
+          GPA: 4.11 / 4.5
+        link: https://ds.korea.ac.kr/
+
+      - layout: left
+        title: 한림대학교
+        sub_title: 2016.3 - 2023.02
+        caption: 학사
+        description: |
+          공과대학 컴퓨터공학과 <br>
+          졸업자 수상: 공로상 <br>
+          GPA: 3.74 / 4.5
+
+  - title: <b>Blog</b>
+    layout: list
+    content:
+      - layout: left
+        title: | 
+          Stranger's lab
+        description: |
+          * 알고리즘, 자료구조, 그 외 프로그래밍에 도움이 될 법한 것들을 공유하고자 시작한 블로그
+          * 주로, 백준(BOJ) 알고리즘 문제를 직접 풀고 남들이 보고 이해할 수 있는 수준으로 공부한 뒤에 풀이를 공유하는 방식으로 포스팅
+          * 평일 평균 500 PV, 월 평균 20000 PV로, 현재 총 누적 PV는 260만
+        link: https://st-lab.tistory.com/
+
+  # - title: 특허
+  #   layout: list
+  #   content:
+  #     - layout: top-middle
+  #     - title: Project 2
+  #       description: >
+  #         Description about the work on/with the project
+
+  # - title: Projects
+  #   layout: list
+  #   content:
+  #     - layout: top-middle
+  #       border: weak
+  #       title: Project 1
+  #       link: https://sproogen.github.io/modern-resume-theme
+  #       additional_links:
+  #         - title:  Github page for project
+  #           icon: fab fa-github
+  #           url: sproogen.github.io/modern-resume-theme
+  #       quote: >
+  #         Short overview of the project
+  #       description: >
+  #         Description about the work on/with the project
+
+  #     - title: Project 2
+  #       description: >
+  #         Description about the work on/with the project
+  # - title: Experience
+  #   layout: list
+  #   content:
+  #     - layout: right
+  #       border: weak
+  #       title: Company 1
+  #       link: https://google.com
+  #       sub_title: Job title 1
+  #       caption: November 2016 - present
+  #       quote: >
+  #         Short description of the company (optional)
+  #       description: >
+  #           Description of role
+
+  #     - layout: top
+  #       title: Company 2
+  #       sub_title: Job title 1
+  #       caption: January 2014 - November 2016
+  #       description: >
+  #         Description of role
+  # - title: Education
+  #   layout: list
+  #   content:
+  #     - title: Institution 1
+  #       border: weak
+  #       sub_title: 2016 - 2019
+  #       caption: Degree
+  #       quote: >
+  #         Short institution or course description
+  #       description: >
+  #         Description of qualification
+  #     - layout: left
+  #       title: Institution 2
+  #       sub_title: 2013 - 2016
+  #       caption: A levels
+  #       description: >
+  #         Description of qualification
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+  #     Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
+  #     ![alt text](_test/images/landscape-trees.jpg "Trees")
+
+# Footer
+footer_show_references: true
+references_title: References on request
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+include:
+ - _test
+
+exclude:
+  - vendor
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
