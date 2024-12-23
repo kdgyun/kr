@@ -112,7 +112,7 @@ content:
           * <b>Keywords:</b> <i>Open Source, Django, Vue.js, Full-stack, Project Manager <br><br></i>
 
       - layout: top-middle
-        title: 산림 정보 융합 클라우드 시스템을 이용한 산림재해재난 방지 및 스마트 에이징 대국민 서비스 플랫폼 개발
+        title: 산림 정보 융합 클라우드 시스템을 이용한 산림재해 재난 방지 및 스마트 에이징 대국민 서비스 플랫폼 개발
         quote: >
           Research Assistant
         description: |
@@ -164,7 +164,7 @@ content:
 
           † <i>학부 연구생 멘토로 연구 지도하여 출판된 논문임</i>
 
-  - title: <b>Experience</b>
+  - title: <b>Experiences</b>
     layout: list
     content:
       - layout: left
