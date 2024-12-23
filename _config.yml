@@ -78,7 +78,7 @@ content:
         description: |
           * Ubuntu환경에서 Kubernetes를 한 줄의 명령어로 쉽고 빠르게 클러스터를 구축하기 위한 개발 프로젝트
           * Open Source로 진행되는 프로젝트로, 1.24.15부터 1.31.2버전까지 지원
-          * 쿠버네티스에서 제공하는 설치 문서는 kurnel 버전, Container Runtime, CNI 등 많은 종속성을 요구하기 떄문에, 설치 과정의 불편함을 해소하기 위해 개발 시작
+          * 쿠버네티스에서 제공하는 설치 문서는 kernel 버전, Container Runtime, CNI 등 많은 종속성을 요구하기 떄문에, 설치 과정의 불편함을 해소하기 위해 개발 시작
 
       - title: KUCODE
         link: https://github.com/KU-CODE-OSS/KUCODE
