@@ -243,15 +243,15 @@ content:
         description: |
           * <b>Programming Languages:</b> Python, Java, Go
           * <b>DevOps & Frameworks:</b> Kubernetes, Docker, Prometheus, Git & Github, Django, FastAPI, Vue.js, PostgreSQL
-          * <b>Others:</b> On-premises Cluster Built, VPN, Cloud(AWS, GCP, Tencent), Unix/Linux, Figma
+          * <b>Others:</b> On-premises Cluster Building, Cloud(AWS, GCP, Tencent), Unix/Linux, Figma
 
       - layout: left
         title: | 
           Familiar With
         description: |
           * <b>Programming Languages:</b> C/C++, bash, Typescript
-          * <b>DevOps & Frameworks:</b> Qt, Flask, Istio, tensorflow, Redis, MySQL
-          * <b>Others:</b> BeautifulSoup, Scrapy
+          * <b>DevOps & Frameworks:</b> Qt, Flask, Istio, TensorFlow, Redis, MySQL
+          * <b>Others:</b> VPN, BeautifulSoup, Scrapy
 
   - title: <b>Education</b>
     layout: list
