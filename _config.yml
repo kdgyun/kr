@@ -17,6 +17,8 @@ email_title: Email
 website: https://st-lab.tistory.com
 website_title: Blog
 
+website2: https://ds.korea.ac.kr
+website_title2: Laboratory
 # Dark Mode (true/false/never)
 darkmode: false
 
@@ -258,25 +260,25 @@ content:
     content:
       - title: 고려대학교
         sub_title: 2023.03 - 2025.02 (예정)
-        caption: 석사
+        caption: 공학 석사
         # quote: >
         #   정보대학 컴퓨터학과
         description: |
-          정보대학 컴퓨터학과 <br>
-          학위논문: CLEAR-HPA: Co-optimizing Latency and Efficient Allocation of Resources for Horizontal Pod Autoscaling in Kubernetes Cluster <br>
-          연구실: 분산클라우드컴퓨팅(Distributed and Cloud Computing) 연구실<br>
-          지도교수: 유헌창 교수<br>
-          GPA: 4.11 / 4.5
+          * 정보대학 컴퓨터학과
+          * 학위논문: CLEAR-HPA: Co-optimizing Latency and Efficient Allocation of Resources for Horizontal Pod Autoscaling in Kubernetes Cluster 
+          * 연구실: 분산클라우드컴퓨팅(Distributed and Cloud Computing) 연구실
+          * 지도교수: 유헌창 교수
+          * GPA: 4.11 / 4.5
         link: https://ds.korea.ac.kr/
 
       - layout: left
         title: 한림대학교
         sub_title: 2016.3 - 2023.02
-        caption: 학사
+        caption: 공학 학사
         description: |
-          공과대학 컴퓨터공학과 <br>
-          졸업자 수상: 공로상 <br>
-          GPA: 3.74 / 4.5
+          * 공과대학 컴퓨터공학과 
+          * 졸업자 수상: 공로상 
+          * GPA: 3.74 / 4.5
 
   - title: <b>Blog</b>
     layout: list
