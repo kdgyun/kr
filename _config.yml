@@ -40,7 +40,7 @@ googlescholar_username: lGxinf0AAAAJ
 # Additional icon links
 additional_links:
 - title: Language(eng)
-  icon: fas fa-globe
+  icon: fas fa-language
   url: https://kdgyun.github.io/
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
