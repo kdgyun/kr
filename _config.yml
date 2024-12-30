@@ -149,12 +149,12 @@ content:
           * <div style="margin-top:10px"><b><span style="text-decoration:underline">Donggyun Kim</span></b>, Heonchang Yu, “Proactive Auto Scaling Based on Marginal Request Change Analysis for Reducing Tail Latency in Kubernetes Cluster”, International Conference on Innovative Computing (IC 2024).</div>
 
           <div style="margin-top:60px"><h4><b>Domestic Conferences</b></h4></div>
-          * <div style="margin-top:10px">Seoeun Kwon, <b><span style="text-decoration:underline">Donggyun Kim</span></b>, Heonchang Yu, “An Analysis of CPU Utilization and Service Latency Based on Cool Down Time Configuration in Kubernetes<sup><b>†</b></sup>”, Annual Conference of KIPS 2024 (ACK2024).</div>
+          * <div style="margin-top:10px"><sup><b>†</b></sup>Seoeun Kwon, <b><span style="text-decoration:underline">Donggyun Kim</span></b>, Heonchang Yu, “An Analysis of CPU Utilization and Service Latency Based on Cool Down Time Configuration in Kubernetes”, Annual Conference of KIPS 2024 (ACK2024).</div>
             - <div style="margin-top:8px">ACK 2024 학부생논문경진대회 은상</div>
           
-          * <div style="margin-top:10px">Seungjoo Han, <b><span style="text-decoration:underline">Donggyun Kim</span></b>, Heonchang Yu, “An Analysis of Response Time Depending on CPU Resource Contention between Pods in Kubernetes Environment<sup><b>†</b></sup>”, Annual Conference of KIPS 2024 (ACK2024).</div>
+          * <div style="margin-top:10px"><sup><b>†</b></sup>Seungjoo Han, <b><span style="text-decoration:underline">Donggyun Kim</span></b>, Heonchang Yu, “An Analysis of Response Time Depending on CPU Resource Contention between Pods in Kubernetes Environment”, Annual Conference of KIPS 2024 (ACK2024).</div>
 
-          * <div style="margin-top:10px">Geonwoo Kim, <b><span style="text-decoration:underline">Donggyun Kim</span></b>, Heonchang Yu, “An Analysis of Service Latency Based on Replica Resource Granularity in Kubernetes Environment”<sup><b>†</b></sup>, Annual Conference of KIPS 2024 (ACK2024).</div>
+          * <div style="margin-top:10px"><sup><b>†</b></sup>Geonwoo Kim, <b><span style="text-decoration:underline">Donggyun Kim</span></b>, Heonchang Yu, “An Analysis of Service Latency Based on Replica Resource Granularity in Kubernetes Environment”, Annual Conference of KIPS 2024 (ACK2024).</div>
 
           * <div style="margin-top:10px">Minjae Kang, <b><span style="text-decoration:underline">Donggyun Kim</span></b>, Heonchang Yu, “Cost-Efficient Resource Allocation Technique using Bayesian Optimization in Serverless Environment”, Korea Computer Congress 2024 (KCC2024).</div>
 
