@@ -73,6 +73,7 @@ content:
           * 정적 스케일러의 문제점인 over-provisioning으로 인한 비용문제 및 under-provisioning으로 인한 사용자 경험 저하 문제를 해결
           * SCIE급 최상위 컨퍼런스(한국연구재단 NRF-1)에 Distinguished Paper로 선정
           * 특허 출원(No.10-2024-0128875) 및 SW 저작권(C-2024-043831) 등록
+          * Kubernetes, Docker, Python 기반의 서비스 컨테이너 개발
 
       - title: k8s-cluster-bootstrap
         link: https://github.com/kdgyun/k8s-cluster-bootstrap
@@ -81,6 +82,7 @@ content:
           * Ubuntu환경에서 Kubernetes를 한 줄의 명령어로 쉽고 빠르게 클러스터를 구축하기 위한 개발 프로젝트
           * Open Source로 진행되는 프로젝트로, 1.24.15부터 1.31.2버전까지 지원
           * 쿠버네티스에서 제공하는 설치 문서는 kernel 버전, Container Runtime, CNI 등 많은 종속성을 요구하기 떄문에, 설치 과정의 불편함을 해소하기 위해 개발 시작
+          * Ubuntu OS 기반의 Shell Script 부트스트랩 개발
 
       - title: KUCODE
         link: https://github.com/KU-CODE-OSS/KUCODE
@@ -99,6 +101,7 @@ content:
           * 다양한 알고리즘 및 코딩 문제를 풀어볼 수 있도록 설계하여 간단한 서비스 제공부터 각자의 서비스 모델에 맞게 제공할 수 있도록 제공
           * Docker 활용을 통한 kickstart 환경 구축과 개발-빌드-배포 프로세스를 단순화
           * 2022 SW인재페스티벌 학교 대표 우수작품으로 선정
+          * Django, Vue.js, Less, PostgreSQL 기반 및 오픈소스와 연동한 마이크로 서비스 기반 웹 서비스 개발 및 창업 대표
 
   - title: <b>Research Projects</b>
     layout: list
