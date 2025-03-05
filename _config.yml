@@ -175,7 +175,7 @@ content:
       - layout: left
         title: 연구원
         sub_title: 분산클라우드컴퓨팅 연구실
-        caption: 2023.01 - 현재
+        caption: 2023.01 - 2025.02
         description: |
           * 분산 클라우드 환경에서의 자원 할당 및 서비스 지연 공동 최적화에 관한 연구
           * 컨테이너 가상화 환경에서 AI기반 애플리케이션 스케일링 스케줄링 연구
@@ -185,7 +185,7 @@ content:
       - layout: left
         title: 학부 연구생 멘토
         sub_title: 분산클라우드컴퓨팅 연구실
-        caption: 2024.04 - 현재
+        caption: 2024.04 - 2025.02
         description: |
           * 4명의 학부연구생을 멘토링
           * 컨테이너 기반 자원 관리 및 성능 최적화에 대한 연구 지도
@@ -195,7 +195,7 @@ content:
       - layout: left
         title: 조교 (TA)
         sub_title: 고려대학교
-        caption: 2024.03 - 현재
+        caption: 2024.03 - 2025.01
         description: |
           * 데이터과학과 인공지능 <span style="float: right"><i>2024 2학기</i></span>
           * SW 프로그래밍 기초 <span style="float: right"><i>2024 1학기</i></span>
@@ -262,7 +262,7 @@ content:
     layout: list
     content:
       - title: 고려대학교
-        sub_title: 2023.03 - 2025.02 (예정)
+        sub_title: 2023.03 - 2025.02
         caption: 공학 석사
         # quote: >
         #   정보대학 컴퓨터학과
